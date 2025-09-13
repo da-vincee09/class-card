@@ -129,3 +129,53 @@ td {
 
 }
 
+@media (max-width: 768px) {
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1rem;
+    }
+
+    h3 {   
+        font-size: 1rem;
+    }
+
+    table {
+        font-size: 0.75rem;
+        width: auto;
+    }
+
+    th, td {
+        padding: 5px;        
+    }
+
+    td {
+        padding:10px;
+    }
+
+    .two-column {
+        flex-direction: column;  
+        align-items: center;    
+        gap: 2rem;               
+    }
+
+    .two-column img {
+        max-width: 180px;        
+        width: 100%;    
+        margin:0;
+        padding:0;         
+    }
+
+    .two-column div:first-child {
+        text-align: center;     
+    }
+
+    .f-grade {
+        border: 2px solid rgb(71, 66, 66);
+    }
+}
+
+
