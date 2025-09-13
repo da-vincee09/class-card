@@ -76,6 +76,7 @@ td {
 
 .f-grade {
     margin-top:2rem;
+    margin-bottom:2rem;
     padding-left: 1rem;
     padding-right: 10rem;
     border: 5px solid rgb(71, 66, 66);
@@ -83,6 +84,7 @@ td {
     margin-left:auto;
     border-radius: 2rem;
     float: right;
+
 }
 
 @media (max-width: 2000px) {
